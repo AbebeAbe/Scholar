@@ -1,3 +1,39 @@
+<!--
+
+    HTML is the standard markup language for creating web pages, while XHTML is a stricter and 
+more standardized version of HTML. Both HTML and XHTML include a wide range of features, 
+such as support for multimedia, styling, and scripting.
+in html:-we can close tags anytime and anywhere as our needs.
+lewd structure is used.
+we can add attribute without any quotes.
+on the other hand in xhtml:- its mandatory to close all the tags in strict
+residing order as they where declared.
+It is mandatory to add quotes on every attribute we declare
+It contains a very strict structure, and the developer cannot go out of the bounds of these structures.
+Virsion of html
+html 1.0
+The basic version of HTML has support for basic elements like text controls and images. 
+ It does not have rich features like styling and other things thatwere related to how content will be
+ rendered in a browser.
+The initial version of HTML does not provide support for tables, font support, etc. 
+html 2.0
+it is a non-proprietary format, openly documented specification and freely implementable.
+HTML version 2.0 was developed in 1995 with basic intention of improving HTML version 1.0
+html 3.2
+It was developed in 1997. After HTML 2.0 was developed, the next version of HTML was 3.2
+
+html 4.01
+It was developed in 1999. It extended the support of cascading styling sheets. In version 3.2, CSS were embedded
+ in HTML page itself. Therefore, if the website has various web pages to apply to the style of each page, we must
+ place CSS on each web page. Hence there was a repetition of the same block of CSS.
+To overcome this thing, in version 4.01 concept of an external styling sheet emerged. Under this concept, 
+an external CSS file could be developed, and this external styling file could be included in HTML itself. 
+HTML 4.01 provided support for further new tags of HTML
+html 5
+This is the latest version of HTML. For a developer, it could be used in 2014. It came up with lots o
+ HTML tags support. HTML5 provided support for new form elements like input element s of different types;
+ geolocations support tags, etc
+-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,12 +41,27 @@
     <meta charset="UTF-8">
     <meta name="Description" content="Free scholarship">
     <meta name="Author" content="Abe">
-    <meta http-equiv="refresh" content="4">
+    <meta http-equiv="refresh" content="30">
 
 </head>
 <body>
-    <h1>Welcome to Freescholarship </h1>
-    <h2>Dream University</h2>
+   <!-- <frameset rows="50%,50%">
+        <fram/>
+        <fram/>
+    </frameset>-->
+
+    
+    <header>
+        <nav><del>there</del><ins>There</ins> is our web page</nav>
+        <hr>
+    </header>
+    
+    <h1><i>Welcome to Freescholarship</i> </h1>
+    <h2><u>Dream University</u></h2>
+    <img src="is.jpg" alt="came on" width="500px" height="300px">
+    <img src="abe.jpg" alt="calm down" width="500px" height="300px">
+    <img src="univer.jpg" alt="oh boy" width="500px" height="300px">
+
     
     <p>Dream University is well-known university across the world by giving  scholarship in the past 9 years.
         <br>
@@ -19,6 +70,7 @@
         <br>
         Dream university found in Addis Abeba Ethiopia.Currently Dream University give scholarship technology field like:
     </p>
+    <div>
     <ul>
         <li>Computer Science</li>
         <li>Software Engineering</li>
@@ -27,8 +79,110 @@
         <li>Computer Engineering</li>
 
     </ul>
+</div>
+    <h4><b>Our daily schedule listed below</b></h4>
+    <table>
+        <tr>
+            <th>Sunday</th>
+            <th>Monday</th>
+            <th>Tusday</th>
+            <th>Wesnessday</th>
+            <th>Thursday</th>
+            <th>Friyday</th>
+            <th>Saturday</th>
+
+        </tr>
+        <th>gaming time</th>
+        <td>basic coding skill</td>
+        <td>coding</td>
+        <td>basic problem solving</td>
+        <td>problem solving</td>
+        <td>competution</td>
+        <td>gaming time</td>
+
+    </table>
     <p>In the future we have a plan to expand </p>
+        our freescholarship in different discipline as we stated before<p>
+        <br/>
+        we known by different countries across  the world.Our aim is create competitive and problem solver person.
+        <br>
+       <h3><strong>Other field that are given in the future </strong><small>like:</small></h3>
+        <ol>
+            <li>bussiness management</li>
+            <li>economics</li>
+            <li>agro-economics</li>
+            <li>bussiness administration</li>
+            <li>logistics and supplly chain management</li>
+
+        </ol>
+        <h4>If you interested in our freescholsrship</h4>
+        please full the following format:
+    </p>
+    <form>
+        <label>First Name</label>
+        <input type="text" name="name">
+        <label>Last Name  </label>
+        <input type="text" name="lname">
+        <label>Adress</label>
+        <input type="text" name="adress">
+        <br>
+        Gender:
+        <label>male</label>
+        <input type="radio" name="Gender" checked>
+        <label>female</label>
+        <input type="radio" name="Gender">
+        <label>other</label>
+        <input type="radio" name="Gender"><br>
+        <label>Birth Date</label>
+        <input type="date"><br>
+        <label>Age</label>
+        <input type="number">
+        <label>Phone Number</label>
+        <input type="number"><br>
+        <label>email</label>
+        <input type="email">
+        <label>Password</label>
+        <input type="password"><br>
+        select which department you would like you learning
+        <select>
+            <option>computer science</option>
+            <option>software Engineering</option>
+            <option>information technology</option>
+            <option>electrical engineering</option>
+            <option>computr engineering</option>
+            <optgroup label="future given course" disabled>
+            <option>economics</option>
+            <option>agro-economics</option>
+            <option>bussiness administration</option>
+            <option>logistics and supplly chain management</option>
+            <option>bussiness management</option>
+        </optgroup>
+        
+        </select>
+
+
+
+        </form>
+        <button>summit</button>
+        <button>exit</button><br>
+        <marquee scrollamount="5">
+            <h5>Good Luck</h5>
+        </marquee>
+        <hr>
+        <main>
+            <article>
+                <section>
+                    <h1>This IS New Blog</h6>
+                        <br>
+                        <h6><b>Comming Soon</b></h6>
+                </section>
+            </article>
+        </main>
  
+        <iframe src="https://www.bing.com">
+        
+       
+     
 </body>
 </html>
 
